@@ -12,7 +12,7 @@ class rabeecontroller extends Controller
      */
     public function index()
     {
-        $post= DB::select('SELECT * FROM users');
+        $post= DB::select('SELECT * FROM users1');
         dd($post);
      //return "rabee";
     }
